@@ -1,8 +1,25 @@
 aid: remedyskin
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/remedyskin.png
 name: Remedyskin
-description: 'Remedyskin is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Remedyskin (Remedy Science, operated by Doctorly Skin Inc.) is a dermatologist-developed
+  skincare and beauty brand founded by Dr. Muneeb Shah. It sells a direct-to-consumer line of advanced
+  skincare treatments organized by concern (dark spots, aging, pore size, body texture) and skin type,
+  spanning cleansers, treatment serums, moisturizers, targeted solutions, and bundles, built around a
+  "Do No Harm" formulation principle that excludes fragrances and common irritants. The storefront runs
+  on Shopify with a Gorgias-powered help center and mobile apps on iOS and Android. It was surfaced as
+  a portfolio company of norwest-venture-partners. Enrichment found no public API, developer portal, or
+  SDK surface — this is a consumer e-commerce brand with no developer program.'
 url: https://raw.githubusercontent.com/api-evangelist/remedyskin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Skincare
+- Beauty
+- Cosmetics
+- E-Commerce
+- Consumer
+- Dermatology
+- Direct-to-Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,16 @@ maintainers:
 common:
 - type: Website
   url: https://remedyskin.com
+- type: Support
+  url: https://remedyskin.gorgias.help/
+- type: PrivacyPolicy
+  url: https://remedyskin.com/pages/privacy-policy
+- type: TermsOfService
+  url: https://remedyskin.com/pages/terms-conditions
+- type: DomainSecurity
+  url: security/remedyskin-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
